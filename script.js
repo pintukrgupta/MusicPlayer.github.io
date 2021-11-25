@@ -23,7 +23,7 @@ let updateTimer;
 const music_list = [
     {
         img : 'images/1.jpg',
-        name : 'Black_Space',
+        name : 'Blank_Space',
         artist : 'Taylor Swift',
         music : 'music/Black_Space.mp3'
     },
