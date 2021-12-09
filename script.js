@@ -23,9 +23,9 @@ let updateTimer;
 const music_list = [
     {
         img : 'images/1.jpg',
-        name : 'Blank_Space',
+        name : 'Black_Space',
         artist : 'Taylor Swift',
-        music : 'music/Black_Space.mp3'
+        music : 'music/Blank_Space.mp3'
     },
     {
         img : 'images/3.jpg',
@@ -53,7 +53,7 @@ function loadTrack(track_index){
     clearInterval(updateTimer);
     reset();
 
-    curr_track.src = music_list[track_index].music;
+    curr_track.src = music_list[track_index].music;                                                  
     curr_track.load();
 
     track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";
